@@ -1,10 +1,10 @@
------
-
 # Lesion Master
 
 **Lesion Master** is a professional-grade desktop application designed for medical image analysis and annotation. Developed for researchers, clinicians, and imaging professionals, it combines intelligent superpixel segmentation with an intuitive interface to accelerate Region of Interest (ROI) marking workflows.
 
 The tool supports standard images, **DICOM** series, and **NIfTI** volumes, making it a versatile solution for medical image segmentation tasks.
+
+---
 
 ## Key Features
 
@@ -13,6 +13,8 @@ The tool supports standard images, **DICOM** series, and **NIfTI** volumes, maki
   - **Advanced Annotation Tools**: Includes **Lasso**, **Rectangle**, and **Ellipse** tools for region selection, plus **Pixel-level Brush** and **Eraser** tools for fine-tuning.
   - **Smart Export**: Automatically detects export needs—saving as binary masks, distinct-color RGB masks, or full DICOM series with preserved metadata.
   - **Volume Navigation**: Built-in multi-slice navigation for 3D medical volumes with smooth zoom and pan controls.
+
+---
 
 ## Installation
 
@@ -23,7 +25,6 @@ The tool supports standard images, **DICOM** series, and **NIfTI** volumes, maki
     **[Download Lesion Master](https://github.com/Akhil717/Lesion-Master/actions/runs/19888382984/artifacts/4748552332)**
 
 2.  **Extract/Run**:
-
       * If the download is a `.zip` file, extract the contents to a folder.
       * Double-click `LesionMaster_Setup.exe` (or the application executable) to launch.
 
@@ -39,12 +40,16 @@ The tool supports standard images, **DICOM** series, and **NIfTI** volumes, maki
   - **RAM**: 4 GB minimum (8 GB recommended for large 3D volumes).
   - **Disk Space**: 500 MB free space.
 
+---
+
 ## How to Use
 
 1.  **Load Data**: Go to `File → Load Image` (Ctrl+O) and select a file or a DICOM folder.
 2.  **Annotate**: Use the **Lasso** tool (default) to draw around regions. The system automatically segments the area using superpixels.
 3.  **Refine**: Use the **Brush** tool to add specific pixels or the **Eraser** tools (Superpixel/Pixel) to correct mistakes.
 4.  **Export**: Go to `File → Export` (Ctrl+S) to save your masks as images, NIfTI volumes, or DICOM series.
+
+---
 
 ## Citation
 
@@ -58,16 +63,20 @@ If you use **Lesion Master** in your research, please cite it as follows:
   version = {1.9.0},
   note = {IISc Bangalore}
 }
-```
+````
+
+-----
 
 ## Developer
 
-**Akhil**
-M.Tech Research Scholar
-**Indian Institute of Science (IISc), Bangalore**
+**Akhil** M.Tech Research Scholar  
+Indian Institute of Science (IISc), Bangalore  
 *Research Area: Medical Image Processing & Computer Vision*
 
 -----
 
 **Copyright © 2025 Akhil. All Rights Reserved.**
 *This software is protected by copyright law.*
+
+```
+```
