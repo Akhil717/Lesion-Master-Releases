@@ -1,7 +1,3 @@
-Here is the corrected README. I have removed all references to the "Magic Wand" tool and refined the "Key Features" and "How to Use" sections to accurately reflect the tools currently in your code (Lasso, Rectangle, Ellipse, Brush, Superpixel Eraser).
-
-### Copy and Paste this for the MIDAS website:
-
 -----
 
 # Lesion Master
